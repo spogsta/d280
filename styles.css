@@ -1,0 +1,19 @@
+        /* Define styles for the two columns */
+        .column1 {
+            float: left;
+            width: 80%; /* Adjust this width as needed */
+            max-width: 80%;
+        }
+        column2{
+            float: right;
+            width: 20%;
+            max-width: 20%;
+            
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
